@@ -1,0 +1,19 @@
+{
+  "name": "vs_js_code",
+  "version": "1.0.0",
+  "description": "javascript_code_test",
+  "main": "let_const.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel lib -d build/lib -s inline",
+    "babelWatch": "babel lib/**/*.js -d build -w -s inline",
+    "releaseBuild": "babel lib -d release/lib --no-comments --compact true --minified"
+  },
+  "author": "zhangyuanes",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-eslatest-node6": "^1.0.1",
+    "eslint": "^6.3.0"
+  }
+}

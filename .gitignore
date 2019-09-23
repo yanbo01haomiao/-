@@ -1,0 +1,7 @@
+# IDE
+.vscode
+.idea
+
+# Distribution / packaging
+build/
+node_modules/
